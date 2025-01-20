@@ -1,4 +1,5 @@
 import express from "express";
+import "dotenv/config";
 import apiRouter from "./routes/api.js";
 import connectDB from "./db.js";
 
